@@ -33,8 +33,9 @@ margin: 0px;
 
   .footer_button1 {    display: none;  }   .prog_Right{  display: none; }
   .prog_Left{  display: none; }
+  
   .hidden {
-    height:80px !important; 
+    height:100px !important; 
   }
 @media (max-width: 1200px){
   .container_custom {
@@ -112,6 +113,8 @@ margin: 0px;
  
   .boxes, .step2 .boxes, .step3 .boxes, .step5 .boxes {
   max-width: 150rem;
+  overflow: auto;
+  height: 68vh;
   /* padding: 7.5rem 0; */
 }
 
@@ -172,8 +175,9 @@ code {
 
 .container_body {
   position: relative;
-  height: 80vh;
-  overflow: auto;      background-color: white;
+  height: 83vh;
+ 
+     background-color: white;
   
 }
 .MuiDialog-paperWidthSm {
