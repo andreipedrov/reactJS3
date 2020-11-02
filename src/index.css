@@ -114,7 +114,7 @@ margin: 0px;
   .boxes, .step2 .boxes, .step3 .boxes, .step5 .boxes {
   max-width: 150rem;
   overflow: auto;
-  height: 68vh;
+  /* height: 68vh; */
   /* padding: 7.5rem 0; */
 }
 
